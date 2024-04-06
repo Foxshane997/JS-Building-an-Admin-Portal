@@ -28,4 +28,9 @@ async function main() {
     books.foreach(renderBook);
 }
 
-
+function renderBook(book){
+    let bookContainer = document.querySelector('.book-container')
+    bookContainer.innerHTML +=`
+    <div class>
+    `
+}
